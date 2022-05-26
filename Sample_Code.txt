@@ -96,3 +96,46 @@
 dt,dd{color: chartreuse;}
 ol li{color: cornflowerblue;}
 p b u{color:crimson;}
+
+//
+
+<body bgcolor="">
+        <div class="header">
+
+        </div>
+        <div class="container">
+            <p class="p1">Hey I am from planet <span class="s1">Mars</span></p>
+        </div>
+        <div class="footer">
+
+        </div>
+    </body>
+
+    body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+}
+.p1{
+    color: red;
+}
+.s1{
+    color: blue;
+}

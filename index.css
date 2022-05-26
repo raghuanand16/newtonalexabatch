@@ -3,26 +3,59 @@ body{
     height: auto;
     margin: 0px;
     padding: 0px;
-    
 }
 .header{
     width: 100%;
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: aqua;
 }
-.container{
+main{
     width: 100%;
-    height: 400px;
-    background-color: blanchedalmond;
+    height: 450px;
+}
+.aside{
+    width: 20%;
+    height: 450px;
+    background-color: brown;
+    float: left;
+}
+.sone{
+    width: 80%;
+    height: 225px;
+    background-color: bisque;
+    float: right;
+}
+.stwo{
+    width: 80%;
+    height: 225px;
+    background-color: chocolate;
+    float: right;
 }
 .footer{
     width: 100%;
-    height: 50px;
-    background-color: burlywood;
+    height: 80px;
+    background-color: yellow;
 }
-.p1{
-    color: red;
+.example{
+    width:100%;
+    height:100px;
+    background-color: bisque;
 }
-.s1{
-    color: blue;
+.e1{
+    width:30%;
+    height: inherit;
+    background-color: cornflowerblue;
+    float: left;
+}
+.e2{
+    width:30%;
+    height: inherit;
+    background-color:darkcyan;
+    float:left;
+}
+.e3{
+    width:30%;
+    height: inherit;
+    background-color:crimson;
+    float:right;
 }

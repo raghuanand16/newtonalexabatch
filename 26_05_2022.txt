@@ -1,0 +1,98 @@
+Day 4 
+
+Summary of Day 3 Concepts
+HTML5 Tags
+HTML Forms
+    Different Inputs
+
+What is character set ??
+=> the character set is denoted as charset
+=> It is defiend as a collection of characters
+=> The characters are always being invented..... At the end of the day the machine/computer 
+has to understand what chartacter you are provided
+
+=> charset tells the computer about the characters.
+
+=> Multiple diff charsets are avialable. 
+
+ASCII Charset = 128 characters => your keyboard are actually based on ASCII 
+=> keyboard > 128 characters ??
+
+The character starts from 0 and ends at 127 => But the count is 128 characters 
+
+utf-8 => > 128 characters
+utf-16
+utf-32
+utf-64
+latin-mb-256
+
+Inline Tag => It is a tag which can be used on a html element's content itself!!!
+    <p>Hello I am from Mars</p>
+
+I can type in two languages using my keyboard, so it is ascii or different?
+    you will be installing a separate s/w => Hindi
+    library - hindi notations => use this library => a => replaced with hindi notations => ascii
+    ASCII   HINDI   Arabic
+65  A       ''      ''
+
+In English - 26 characters
+Before 10 years the rupee symbol present => No
+
+utf-8
+
+HTML5 Tags => 
+    Header  
+    Footer
+    Section
+    Article
+    nav
+    aside
+    main
+    audio
+    video
+    base
+    area
+
+HTML Forms
+=> To collect data from user
+=> Various type of data and Hence we have various types of input fields.
+
+<form action="what to do" method="POST" name="formno1" autocomplete>
+    <input type="text" />
+    <input type="button" value="submit" />
+</form>
+
+List of Diff Types that can be declared
+text
+number
+email
+password
+file
+calendar
+month
+day
+captcha
+checkbox
+radio
+
+
+DIff values are submit, reset
+
+attributes => placeholder, name, value, required, etc..
+
+Events in Forms => Every button or every anchor tag => click functionality => multiple diff types of events ~~ 106 events 
+
+    onClick
+    onChange
+    onMouseOver
+    OnMouseIn
+    OnMouseOut
+    onKeyIn
+    OnKeyOut
+    OndblClick
+    etc...
+
+
+select and option tag
+
+Remaining tags from teh syllabus.

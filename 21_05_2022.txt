@@ -42,7 +42,7 @@ Styles in HTML
             ____.css
                 ---you will declare the style properties here---
 
-Priority
+Priority/Precedence
 First is Inline, Second is Internal and Third is External 
 
 In order to implement the properties on a particulat HTML Element in the Internal or External 
@@ -88,3 +88,5 @@ width => x axis
 height => y axis
 
 Scren Size ==> 
+
+https://github.com/raghuanand16/newtonalexabatch.git
