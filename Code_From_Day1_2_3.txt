@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <title>My First Webpage</title>
+        <link rel="icon" href="favicon.png" />
+        <meta name="keywords" content="Ecommerce, Online Shopping" />
+        <meta name="description" content="We are the Online Mega Store" />
+        <meta name="author" content="Raghu Anand" />
+        <meta name="url" content="www.flipitup.com" />
+        <meta name="company" content="flipitup private limited" />
+        <meta name="contributors" content="Vimal, Suresh" />
+        <meta name="csslines" content="100" />
+    </head>
+    <body>
+        <p style="color:red; font-size: 30px;">Hello I am from Mars Planet</p>
+        <h1 style="font-size: 60px;"><i>Hello 1</i></h1>
+        <h2>Hello 2</h2>
+        <center>
+            <h3 id="ra_One">Hello 3 - ID</h3>
+        </center>
+        <h4 id="ra_Two">Hello 4 - ID</h4>
+        <h5 class="One Two">Hello 5, 2 colors</h5>
+        <h5 class="Two">Hello 5</h5>
+        <h6 class="One star">Hello 6</h6>
+        <h6 class="Two">Hello Hru</h6>
+        <hr />
+        <p>Hey I am Fine</p>
+        <p><b>Hey I am Fine</b></p>
+        <p><i>Hey I am Fine</i></p>
+        <p><del>Hey I am Fine</del></p>
+        <p style="color:red" class="star"><mark>Hey I am Fine</mark></p>
+        <p><ins>Hey I am Fine</ins></p>
+        <em>Hey I am Fine</em>
+        <br />
+        <u>Hey I am Fine</u>
+        <br />
+        <strong>Hey I am Fine</strong>
+        <br/>
+        <table border="1px">
+        <tr>
+                <th class="Two star">Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <br/>
+        <ol type="I" start="5">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Custard</li>
+        </ol>
+        <hr />
+        <ul type="square">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Custard</li>
+        </ul>
+        <hr />
+        <dl>
+            <dt>Bangalore</dt>
+            <dd>Capital City of Karnataka</dd>
+            <dt>Mumbai</dt>
+            <dd>Capital City of Maharastra</dd>
+            <dd>Capital City of Maharastra</dd>
+        </dl>
+        <p>
+            <b>
+                <i>I am italic</i>
+                <u>I am Underline</u>
+            </b>
+        </p>
+    </body>
+</html>
+
+
+
+========================css file code=============
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.One{color: orange;}
+.Two{color: blue;}
+.star{font-size: 40px;}
+#ra_One{background-color: brown;}
+#ra_Two{background-color: aqua;}
+dt,dd{color: chartreuse;}
+ol li{color: cornflowerblue;}
+p b u{color:crimson;}

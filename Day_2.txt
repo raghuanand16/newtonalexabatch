@@ -1,0 +1,131 @@
+Summary
+    Instructor Introduction
+    Participant Introduction
+    Course Agenda
+    Key Points
+    Evolution of Internet/Web
+        HTML
+        CSS
+        JS
+        NODEJS
+        Angular/React/Vue etc...
+
+        version - an update with something NeW 
+
+        js 
+        js5 
+        JS6 
+
+Introduction to HTML
+	=> Hyper Text Markup Language.
+	=> We can build static document which is basic structure for a website(Text format)	
+
+	Html Tags	
+	=> Basic unit of HTML 
+	=> Semantics - It is already predefined and it follows a specific flow or purpose or some work
+	Eg: <p> - Paragraph HTML Tag
+
+	HTML Element
+	=> These are closing Tag + COntent + Opening Tag
+	Eg: <p>Hello I am from Mars</p> - Paragraph HTML Element
+
+	boilerplate - predefined skeleton struture
+
+	Eg: Letter - Format
+
+    / = forward
+    \ = backward
+	
+	Basic Tags in HTML
+
+    <html>
+        content
+    </html>
+
+    2 types of closing Tags
+        self clsoing Tag
+            <hr />
+
+        External closing tag 
+            <p>content</p>
+
+    html
+        head
+            title 
+            link tag => favicon - extension of the image is normally .ico
+                            32px x 32px or 64x64
+
+            meta => Used for passing information about the website to whom => Search Engine &                            
+                                                                              Browser
+            Style => define css properties inside this
+            script =>  define js functionalities inside this
+
+    system => browser 
+        From the system the browser gets the screen size
+
+    browser => website
+        From the browser the website will get the screen size 
+
+        body  
+
+
+        script
+
+    watch, tab, laptop, desktop, tv
+
+    Media Query in CSS
+        screensize
+            {
+                css properties
+            }
+
+    Frameworks => predefined css properties and predefined script functionalities
+        Bootstrap
+        Tailwind css
+        Material UI 
+        etc...
+
+        By default your website will be responsiveness
+
+
+CDN - Content Delivery Network
+    - means or it is way for you to server the static pages from someother server.
+    - faster
+
+
+Attributes -> These are used to manupilate teh properties of 
+HTML Element...
+
+Attributes
+    rel = relationship
+    href = This is used to provide the url of the what we need !!!
+
+Headings
+    6 diff types of Headings
+    h1
+    h2
+    ...
+    h6
+
+ins, b, i, u, del, mark, em, strong, etc...
+
+tables
+    collection of rows and columns
+        5 row = date
+        7 col = days
+
+    <table>
+        <th>
+        <tr>
+        <td> 
+
+lists
+    ordered lists - countable items
+        <ol>
+            <li>item 1</li>
+        </ol>
+
+        The items will be displayed in 5 diff types
+            Number, Alphabet-lower, Alphabet-upper, Roman-lower, Roman- Upper
+
+//task - Build May Month Calendar using table !!!!!

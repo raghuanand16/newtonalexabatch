@@ -1,0 +1,168 @@
+Good Evening Everyone.
+
+Self Introdcution
+	Raghu Anand
+	Senior Technical Instructor - MNC Company @ US Based Company
+		DevOps, AWS/Azure/GCP Cloud and Mulesoft(Integration Platform)
+	Part timer - MERN, MEAN and Django Stack
+	11 years of Experience
+		3 years - Developer = Mainframe and Dotnet
+		8 years - Instructor
+	Roles
+		Instructor
+		Consultant
+		Advisor - few startups
+	2k+ Candidates
+	100+ Batches	=> 1 person , max - 147 - Azure Cloud (Google Meet)
+	7th company
+	Love to get Feedbacks.
+	Questions
+
+Participant Introduction
+	Name, Experience, BE(ISE), Internship, Place of Origin, Hobby's
+
+	Raghu Anand, 11 years, BE - ISE, No Internship, Bangalore(KA), Read and Play Pubg
+
+Key takeaways from Batch
+
+75% - Non IT Background
+25% - IT Background => 20% - 0 Exp
+							  5% - Exp
+
+Humble, patient and supportive
+
+Medium Pace !!!
+	 
+Agenda
+	MERN Stack - MongoDB, ExpressJS, ReactJS and NodeJS
+
+Explames
+	Front End - HTML, CSS , JS, REACTJS... Bootstrap, material ui, tailwind css, etc..
+	Back End - Nodejs and Expressjs
+	Database - MongoDB
+	
+Key Points - Remember
+	=> Regular to classes
+	=> Assignments, Quizes, work, TASKS, etc....
+	=> audio, video, etc..
+
+Questions !!!
+
+Agenda - Course
+
+Fundamentals of Web Development
+	The Internet Analogy
+		
+	1960's => cold war b/w us and ussr
+			 => us had bases all over the world = needed some kind of channel to communicate b/w these bases = As a result - connected all these bases together and these resulted in creation of Network
+		=> Private Network
+
+	1980's => Insurance Companies, Banking Companies, etc.. Branches located all over the world => needed some kind of channel to communicate b/w these branches => As a result - connected all these branches together and these resulted in creation of Network
+		=> Private Network
+
+	1990's => 1996 - Public Network was created - called as Internet
+
+			Anyone from anywhere can use these and communicate with each other
+
+	Messages
+	Voice calls + Messages
+	Video Calls + Voice Calls + Messages
+
+	To communicate through the internet people used something called as Markup Language.
+- These markup lang are used to create documents which can be transfered through the internet.
+- These documents was simple and static in nature.
+- Most widely was HTML - Hyper Text Markup Language
+
+To Overcome the very static nature of HTMl document and to overcome the content which looked same. They introduced something called as Styles
+	CSS - Cascading Style Sheets
+
+static => the user cannot communicate with the website.
+Dynamic => the user can communicate with the website
+
+to add dynamic flavour into these boring static documents they introduced JavaScript.
+
+The Initial JS was titled towards procedure oriented lang(Less Featured Programming langugage)
+
+Js initially was used to build simple dynamic websiets.....
+
+2000's
+
+In 2005 - Really Big - JS was totally converted into a object Oriented Language(More Featured Programming langugage)
+	From this day onwards, JS was used to build complex dynamic websites.....
+	They will research, more scripts, more library's..........
+
+Many people started to use JS. 
+
+function - piece of reusable code
+
+Pople created Libraries - collection of functions 
+		Eg: Ajax, Jquery, etc...
+
+
+Another side to the story: 
+
+Web Application Architecture => 3 parts
+	Front End - JS
+	Back End - NODE(JS)/PHP/JAVA/DOTNET/PYTHON/C++ etc..
+	Database
+
+In the mind of a Ryan !!!
+
+it came as a great surprise to ryan - Came from google !!!
+
+To open a web application - Browser - Front End (JS) - In all the browsers - js compiler
+
+Google - browser - chrome - js compiler - V8 Engine !!!! - Fastest in the world even today.
+
+	Google made this compiler OPEN SOURCE -- PUBLIC - ANYONE CAN USE ANYHOW THEY WANT!!!
+
+Ryan => V8 Engine + his own code (libraries) => NODEJS
+
+	This was a Back End - Nodejs => JavaScript Language.
+
+
+JS gained more popularity -> many more libraries was introduced.
+
+Framework - Collection of JS libraries !!!!
+	AngularJS
+	REACTJS
+	VUEJS
+	EMBER
+	NEXTJS
+	etc..
+
+JAVASCRIPT MERN Stack is in huge demand....!!!!
+
+10 jobs - job portal 4 exclusively belongs to fullstack
+	
+
+Express JS - Framework for Nodejs
+
+If you use Nodejs - build a backend - 100 lines to create it
+
+If you use expressjs(build on top of node) - with just 40 lines you can create it.
+
+JS
+JS has many versions
+
+TS = JS + JS 5 + JS 6 + Transpiler(Compiler which will convert TS code into JS code)
+
+Introduction to HTML
+	=> Hyper Text Markup Language.
+	=> We can build static document which is basic structure for a website(Text format)	
+
+	Html Tags	
+	=> Basic unit of HTML 
+	=> Semantics - It is already predefined and it follows a specific flow or purpose or some work
+	Eg: <p> - Paragraph HTML Tag
+
+	HTML Element
+	=> These are closing Tag + COntent + Opening Tag
+	Eg: <p>Hello I am from Mars</p> - Paragraph HTML Element
+
+	boilerplate - predefined skeleton struture
+
+	Eg: Letter - Format
+	
+
+	Basic Tags in HTML

@@ -1,0 +1,90 @@
+Summary of Day 2
+
+unordered lists - cannot count them. It is just a list with items
+        <ul>
+            <li>item 1</li>
+        </ul>
+
+    The items will be displayed in 3 diff types 
+        Disc(default), Circle, Square
+
+description lists - key and definition for the key
+        <dl>
+            <dt>Bangalore</dt>
+            <dd>Capital City of Karnataka</dd>
+        </dl>
+
+Styles in HTML
+=> we use this styles to provide a better User Experience
+=> We can implement styles in html in 3 different approaches
+    1. Inline 
+        - You will provide the style in the line of the tag itself.
+        Eg: <p style="color: red;">Hello</p>
+
+    2. Internal
+        - you will provide the style inside the head tag of the HTML Document
+        Eg:
+            <head>
+                <style>
+                    ---you will declare the style properties here---
+                </style>
+            </head>
+
+    3. External
+        - you will provide the style in a separate css file called as ___.css
+        - Then we have to link this file inside the head tag of the HTML Document
+
+        Eg:
+            <head>
+               <link rel="stylesheet" href="___.css"/>
+            </head>
+
+            ____.css
+                ---you will declare the style properties here---
+
+Priority
+First is Inline, Second is Internal and Third is External 
+
+In order to implement the properties on a particulat HTML Element in the Internal or External 
+approah we take the help of selectors
+
+Types of selectors
+    element selector
+        the name of the tag
+
+    Attribute Selector
+        class selector = by using the class attribute
+                       = you defined with a dot Operator i.e. .
+                       = We can add multiple classes to a single element
+        id selector = by using the id attribute
+                    = you will use a Hash Operator i.e. #
+                    = we cannot add multiple ids to a single element
+                    = Each id is unique
+
+    group selector = We groupd different tags using a comma Operator and will implement
+     the properties as a group
+
+    child selector - Using the space
+
+    Universal Selector - *
+
+    Pseduo Selector - : (explain pending)
+
+how to bring them in center ???
+
+html Vs dhtml ???
+
+<center>
+</center>
+
+Block tag - container - wrap the html elements inside it.
+    Eg: div, p, h1, section, header, footer, etc...
+
+Inline Tag - It is used to wrap some content from a existing HTML Element. and then we can
+implement some css properties on the wrapped content.
+    Eg: Span, a, ins, del, mark, strong, etc......
+
+width => x axis
+height => y axis
+
+Scren Size ==> 
