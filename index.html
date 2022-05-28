@@ -6,9 +6,11 @@
         <link rel="icon" href="favicon.png" />
     </head>
     <body>
-        <header class="header">
+        <nav>
+            <header class="header">
 
-        </header>
+            </header>
+        </nav>
         <main>
             <aside class="aside">
 
@@ -37,10 +39,53 @@
 
         <br/>
         <br />
-        <form autocomplete>
-            <input type="text" />
+        <form>
+            <input type="text" required placeholder="Enter your Text" value="Pluto"/>
             <input type="button" value="submit" />
+            <br/>
+            <input type="number" disabled />
+            <input type="date" />
+            <input type="month" />
+            <input type="password" />
+            <input type="image" src="" alt="Alternate"/>
+            <input type="color" />
+            <input type="file" />
+            <br />
+            <br/>
+            <p>Select any one </p>
+            <input type="radio" name="fruits"/> Apple
+            <input type="radio" name="fruits"/> Orange
+            <br/>
+            <label>Select any one </label>
+            <input type="checkbox" name="fruits" /> Apple
+            <input type="checkbox" name="fruits"/> Orange
+            <input type="checkbox" name="fruits"/> Banana
+            <input type="checkbox" name="fruits"/> Pineapple
+            <label>0</label>
+            <input type="range" min="0" max="10" />
+            <label>10</label>
+            <!-- <input type="" -->
         </form>
         <br/>
+        <select>
+            <option>Select Any One</option>
+            <option>Apple</option>
+            <option>Orange</option>
+            <option>Banana</option>
+            <option>PineApple</option>
+            <option>Custard Apple</option>
+        </select>
+        <br/>
+        <br/>
+        <br/>
+        <a href="https://www.flipkart.com" target="_blank">Click Here to Visit Google Page</a>
+        <a href="#">Click Here to Visit Google Page</a>
+        <br/>
+        <br/>
+        <button onclick="abc()">ClickHere</button>
+        <br/>
+        <br/>
+        <br/>
+        <script src="index.js"></script>  
     </body>
 </html>

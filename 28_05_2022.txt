@@ -1,0 +1,97 @@
+Summary of 26_05_2022
+
+List of Diff Types that can be declared
+text
+number
+email
+password
+file
+calendar
+month
+day
+captcha
+checkbox
+radio
+
+
+DIff values are submit, reset
+
+attributes => placeholder, name, value, required, etc..
+
+Events in Forms => Every button or every anchor tag => click functionality => 
+multiple diff types of events ~~ 106 events 
+
+    onClick
+    onChange
+    onMouseOver
+    OnMouseIn
+    OnMouseOut
+    onKeyIn
+    OnKeyOut
+    OndblClick
+    onkeypress
+    onMouseWheelIn
+    OnMouseWheelOut
+    hover
+    visited
+    etc...
+
+    small
+
+
+select and option tag
+
+Remaining tags from the syllabus.
+
+How to provide colors in Web APpln i.e. HTML & CSS
+    1. Using Standard Color Names   ~ 300 colors
+        Eg: color: red/green/violet/blue etc...
+
+    2. Using RGB Value => It is a combination of Red, Green and Blue Color
+    There are around 256 different shades of these colors.
+    => The values of the colors will start from 0 and end at 255
+    => It has appr ~ 16 Million Colors
+
+        rgb(value,value,value)
+        rgb(0,0,255)    => blue
+        rgb(0,255,0)    => green
+        rgb(0,0,0)      => black
+        rgb(255,255,255) => white
+
+    3. rgba => rbg + transision/opacity/alpha/blur
+            a => the value will be from 0.1 to 1, in incremental of 0.1
+                    10 values
+             16*10  ~ 160 million colors       
+
+    4. Using the Hexadecimal Value
+        => It is denoted by #
+        => The values of hexadecimal starts from 0 to f
+        0 1 2 3 4 5 6 7 8 9 A B C D E F 
+        0 to 15 values  => In total 16 values
+        2 types are present in hexa decimal
+        a. 3 digit hexadecimal value
+            #rgb 
+            #00f    => blue
+            #0f0 = green
+            #f00 = red 
+            #000 => black 
+            #fff => white
+
+            => 16 *16 *16 ~ 4096 values
+
+        b. 6 digit hexadecimal value
+            #rrggbb
+
+            #00ff00 => green 
+            #000f00 => shade of green 
+
+             => It has appr ~ 16 Million Colors
+
+How to Add JavaScript in HTML Document
+    4/5 approaches
+
+    Inline JS 
+    Internal - JS inside the Head tag
+             - JS inside the body tag
+             - JS inside the html tag 
+    External - Js in a separate page

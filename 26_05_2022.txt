@@ -61,38 +61,3 @@ HTML Forms
     <input type="text" />
     <input type="button" value="submit" />
 </form>
-
-List of Diff Types that can be declared
-text
-number
-email
-password
-file
-calendar
-month
-day
-captcha
-checkbox
-radio
-
-
-DIff values are submit, reset
-
-attributes => placeholder, name, value, required, etc..
-
-Events in Forms => Every button or every anchor tag => click functionality => multiple diff types of events ~~ 106 events 
-
-    onClick
-    onChange
-    onMouseOver
-    OnMouseIn
-    OnMouseOut
-    onKeyIn
-    OnKeyOut
-    OndblClick
-    etc...
-
-
-select and option tag
-
-Remaining tags from teh syllabus.
