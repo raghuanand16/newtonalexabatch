@@ -139,3 +139,200 @@ p b u{color:crimson;}
 .s1{
     color: blue;
 }
+
+=================== 31st May 2022====================
+
+        <nav>
+            <header class="header">
+
+            </header>
+        </nav>
+        <main>
+            <aside class="aside">
+
+            </aside>
+            <section class="sone">
+
+            </section>
+            <section class="stwo">
+
+            </section>
+        </main>
+        <footer class="footer">
+
+        </footer>
+        <div class="example">
+            <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="e3"></div>
+        </div>
+            <video width="300px" height="200px" controls src="location" type="video/mp4">
+            </video>
+
+            <audio width="" height="" controls>
+                <source src="location" type="audio/mp3" />
+            </audio>
+
+        <br/>
+        <br />
+        <form>
+            <input type="text" required placeholder="Enter your Text" value="Pluto"/>
+            <input type="button" value="submit" />
+            <br/>
+            <input type="number" disabled />
+            <input type="date" />
+            <input type="month" />
+            <input type="password" />
+            <input type="image" src="" alt="Alternate"/>
+            <input type="color" />
+            <input type="file" />
+            <br />
+            <br/>
+            <p>Select any one </p>
+            <input type="radio" name="fruits"/> Apple
+            <input type="radio" name="fruits"/> Orange
+            <br/>
+            <label>Select any one </label>
+            <input type="checkbox" name="fruits" /> Apple
+            <input type="checkbox" name="fruits"/> Orange
+            <input type="checkbox" name="fruits"/> Banana
+            <input type="checkbox" name="fruits"/> Pineapple
+            <label>0</label>
+            <input type="range" min="0" max="10" />
+            <label>10</label>
+            <!-- <input type="" -->
+        </form>
+        <br/>
+        <select>
+            <option>Select Any One</option>
+            <option>Apple</option>
+            <option>Orange</option>
+            <option>Banana</option>
+            <option>PineApple</option>
+            <option>Custard Apple</option>
+        </select>
+        <br/>
+        <br/>
+        <br/>
+        <a href="https://www.flipkart.com" target="_blank">Click Here to Visit Google Page</a>
+        <a href="#">Click Here to Visit Google Page</a>
+        <br/>
+        <br/>
+        <button onclick="abc()">ClickHere</button>
+        <br/>
+        <br/>
+        <br/>
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+main{
+    width: 100%;
+    height: 450px;
+}
+.aside{
+    width: 20%;
+    height: 450px;
+    background-color: brown;
+    float: left;
+}
+.sone{
+    width: 80%;
+    height: 225px;
+    background-color: bisque;
+    float: right;
+}
+.stwo{
+    width: 80%;
+    height: 225px;
+    background-color: chocolate;
+    float: right;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+}
+.example{
+    width:100%;
+    height:100px;
+    background-color: bisque;
+}
+.e1{
+    width:30%;
+    height: inherit;
+    background-color: cornflowerblue;
+    float: left;
+}
+.e2{
+    width:30%;
+    height: inherit;
+    background-color:darkcyan;
+    float:left;
+}
+.e3{
+    width:30%;
+    height: inherit;
+    background-color:crimson;
+    float:right;
+}
+
+02/06/2022
+
+<p>Hello I am From India</p>
+        <p class="font">Hello I am From India</p>
+
+div{
+    width: 100%;
+    height: 500px;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    /* scroll; */
+    /* margin: 20px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    /* border-width: 10px;
+    border-color: red;
+    border-style: solid; */
+    border: 10px red solid;
+    padding: 15px;
+}
+.font{
+    color:red;
+    font-family: Roboto, 'system-ui', 'sans-serif';
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+.one{
+    width: 100%;
+    height:100px;
+    background-color: red;
+    position: absolute;
+    top:110px;
+}
+.two{
+    width: 100%;
+    height:150px;
+    background-color: yellow;
+    position: absolute;
+    top:10px;
+}
+
+        <div class="one"></div>
+        <div class="two"></div>

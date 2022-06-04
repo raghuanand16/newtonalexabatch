@@ -1,0 +1,80 @@
+CSS
+=> Cascading Style sheet
+=> This is used to style the HTML Webpages
+
+CSS can be implemented in 3 approaches
+    Inline
+    Internal
+    External
+
+CSS Selectors
+    Element
+    Attribute
+        id 
+        class
+    Group
+    Universal
+    Pseudo(Ur Own Task)
+    child
+
+CSS Colors
+    Standard Colors
+    rgb
+    rgba
+    3 digit Hexadecimal
+    6 decimal Hexadecimal
+    HSL - Hue Saturation Lightness(Ur Own Task) => 120*120*120 => 3.5 million
+
+Comment
+/* ____ */
+
+/* 
+____
+____
+____
+*/
+
+CSS Directions
+clockwise direction => top right bottom left (Shorthand property)
+
+Background
+    => background-color 
+    => background-image 
+            url('location')
+    => background-video****
+    => background-repeat 
+
+Box Model
+    Margin
+        margin: 10px;
+        Here the 10px was occupied in all the 4 Directions
+
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
+
+        margin: top right bottom left;
+        margin: 200px 100px 200px 100px;
+
+        margin :10 px;
+
+        margin: 50px 100px;
+
+        50px - y axis -> top to botom
+        100px - x axis -> left to right
+
+        margin: 10px 20px 15px;
+
+    Padding
+        padding: 10px;
+        Here the 10px was occupied in all the 4 Directions
+
+        padding-top
+        padding-right
+        padding-bottom
+        padding-left
+
+        padding: top right bottom left;
+        padding: 200px 100px 200px 100px;
+

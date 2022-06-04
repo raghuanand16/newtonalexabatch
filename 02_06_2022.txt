@@ -1,0 +1,39 @@
+Summary of previous session
+
+    Border
+        set a boundary
+        border-style => to specify the style or kind of border you want 
+        border-color => color 
+        border-width => increase the width of the border
+            px, %, rem, em, mm, cm, vp, vw, etc.....
+
+            1 em = 16px
+            1 rem = ?
+
+            border : width style color;
+
+    Content
+
+Fonts <p>
+    Font family - deign in which you wanna display the text
+        Eg: Roboto, Times New Roman, etc...
+    Font-size - size
+    font-weight - thin, thinner, bold, bolder, etc..
+    font-style - italic, op.., etc..
+    font-variant - capital, small, etc...
+
+Positions
+    relative
+    absolute
+    static = default
+    sticky = WHen used the particulr line when it reahes the top it will be 
+             fixed 
+    fixed = fixed to a particular area.
+
+CSS Media Queries
+=> It is used for responsive
+=> For diff screen sizes you can define the property values.
+
+@media only screen and(max-width: 300px){
+
+}
