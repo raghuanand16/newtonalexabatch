@@ -363,3 +363,219 @@ function abc(){
 function def(){
 
 }
+
+======================07/06/2022========================
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <title>SBI Clone Website</title>
+        <link rel="icon" href="sbi_favicon.png" />
+    </head>
+    <body>
+            <div class="container">
+                <div class="logo">
+                    <a href="https://onlinesbi.com">
+                        <img src="sbi_logo.png" class="llogo" alt="logo" />
+                    </a>
+                    <img src="sbi_logo.png" class="rlogo" alt="logo" />
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                    </ul>
+                    <button>Hindi</button>
+                </div>
+                <div class="info">
+                    <center>
+                        <p>dsgfsgufgsdgfsdfsdfsdfsdgsg</p>
+                        <p>jhrtjkjthtrhyeryeryewrdgsdhtujrturtuuytytryey</p>
+                    </center>
+                </div>
+                <div class="sub_container">
+                    <div class="personal">
+                        <center>
+                            <img src="" alt="" />
+                            <h3><a href="">PERSONAL BANKING</a></h1>
+                            <a href="">Login >></a>
+                        </center>
+                        <ul>
+                            <li>Services</li>
+                            <li>Mobile Banking</li>
+                            <li>Services</li>
+                            <li>Mobile Banking</li>
+                        </ul>
+                        <p>gsdfgsdfgsdkgfgsd</p>
+                    </div>
+                    <div class="corporate"></div>
+                </div>
+                <div class="news">
+                    <marquee>sduihsehfhshfhsdhfhds</marquee>
+                </div>
+                <div class="links">
+                    <!-- table-> 1 row- 4 col - each col - ul,4li -->
+                    <!-- 4 sub div=> ul and 4 li -->
+                    <center>
+                    <button></button>
+                </center>
+                </div>
+                <div class="adimage">
+                    <img src="" />
+                </div>
+                <div class="footer"></div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+====
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height:auto;
+    background-image: url(body_bg.jpg);
+}
+.container{
+    width: 85%;
+    height: 1072px;
+    margin: 0% 7.5%;
+    background-color: red;
+}
+.logo{
+    width: 100%;
+    height: 92px;
+    background-color: cadetblue;
+    position: relative;
+}
+.llogo{
+    position:relative;
+    float:left;
+}
+.rlogo{
+    position:relative;
+    float:right;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.menu ul{ list-style-type: none;}
+.menu li{display: inline-block; padding: 10px; border-right: 3px solid aqua;}
+.info{
+    width: 100%;
+    height: 60px;
+    background-color:azure;
+    position: relative;
+}
+.info p{
+    padding: 5px;
+}
+.sub_container{
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+.personal{
+    width: 50%;
+    height: 275px;
+    background-color: antiquewhite;
+    position: relative;
+    float:left;
+
+}
+.personal ul{ list-style-type: none;}
+.personal li{display: inline-block; padding: 10px; border-right: 3px solid aqua;}
+.corporate{
+    width: 50%;
+    height: 275px;
+    background-color: yellow;
+    position: relative;
+    float:right;
+}
+.news{
+    width: 100%;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+}
+.news marquee {padding: 5px;}
+.links{
+    width: 100%;
+    height: 240px;
+    background-color:azure;
+    position: relative;
+}
+.adimage{
+    width: 100%;
+    height: 300px;
+    background-color:coral;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 25px;
+    background-color: brown;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+=================================================
+<div class="container">
+            <div class="box">Home</div>
+            <div class="box">Contact Us</div>
+            <div class="box">About Us</div>
+            <div class="box">Our Team</div>
+            <div class="box">Blog</div>
+            <div class="box">Login</div>
+            <div class="box">Register</div>
+         </div>
+
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(7,13.5%)
+}
+
+.box{
+    border: 5px solid green;
+    background-color: red;
+    padding: 10px;
+}
+
+        <div class="flexContainer">
+            <div class="flexBox">flexBox</div>
+            <div class="flexBox">flexBox2</div>
+            <div class="flexBox">flexBox3</div>
+            <div class="flexBox">flexBox4</div>
+            <div class="flexBox">flexBox5</div>
+            <div class="flexBox">flexBox6</div>
+            <div class="flexBox">flexBox7</div>
+        </div>
+
+        .flexContainer{
+    display: flex;
+    background-color: cadetblue;
+}
+.flexBox{
+    width: 10%;
+    height: 50px;
+    background-color: coral;
+    border: 5px solid royalblue;
+    padding: 10px;
+}

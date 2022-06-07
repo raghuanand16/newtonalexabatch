@@ -1,0 +1,95 @@
+Css Grid
+=> Layout or placement of content in the web page
+=> display = Grid and inline-Grid
+=> we normally define a parent tag -> display - grid, grid-template-col
+or grid-template-row
+=> The child will have border, padding.
+
+CSS Flex box
+=> It is a Layout or placement of content in a web page
+=> Similar to CSS Grid
+
+JavaScript
+=> It is a Programming Lang
+=> Object Oriented Programming Lang
+=> Actually build especially for creating dynamic webpages - to change the behaviour of the web
+page based on User's Action.
+
+Input - Computer - Output
+
+Input => Variables/Keywords/Identifiers
+
+ Variables - These are used to provide input to the computer.
+ datatypes - These are used to specify the type of input that you are passing to the computer
+
+you have to create some logic/Instructions - Based on this the computer will process the given
+input
+    logic/Instructions => Operators, Decision Statement and Loops
+
+Variables
+=> Variables are Actually a name given to a memory location inside a system
+=> Data is stored in the computer's memory
+=> These Data are Input.
+Syntax:
+    ES6 was introduced in 2015
+
+    Before 2015 - ES5 and lowwer versions
+        JS compiler is very powerful that it can automatically understand the type of
+        data that you are passing !!!!
+
+        var var_name = 123
+            123 is the value
+            var_name is the name of the memory location -> 123 value is stored here.
+            var - keyword which is used to define a Variables
+
+        var is global variable
+
+    After 2015 - ES6 was introduced, they added 2 more keywords which can be used to define a
+    Variable 
+        let var_name = 123
+
+        let is local variable/Scope Variable/Block Variable.
+
+        const var_name = 123
+            No matter what you do, the var_name will always have 123 value.
+
+ECMA - European Computer Manufacturing Association
+     - Standard script has to agreed b/w everyone
+     - ECMA script or ES or EScript or ECMAs or ECscript
+
+    From ECMA - Javascript was derived
+              ES1 - JavaScript Version 1
+              ES2 - JavaScript Version 2
+              .......
+              ES5 - JavaScript Version 5
+              ES6 - ECMA SCRIPT 6 - JavaScript Version 6
+
+    From ECMA - TypeScript - JS + ES5 + ES6 +Transpiler(It will convert TS to JS)
+        
+var var_name = 123  // datatype - Number, Value - 123
+    var_name = 456  // datatype - Number, Value - 456 
+    var_name = 'Hey I am From Mars' // datatype - String, value - Hey I am From Mars
+
+let var_name = 123  // datatype - Number, Value - 123
+    var_name = 456  // datatype - Number, Value - 456 
+    var_name = 'Hey I am From Mars' // datatype - String, value - Hey I am From Mars
+
+const var_name = 123  // datatype - Number, Value - 123
+    var_name = 456  // datatype - Number, Value - 456   //Error
+    var_name = 'Hey I am From Mars' // datatype - String, value - Hey I am From Mars //Error
+
+variable Name Rules
+=> Var_name cannot start with a Number
+=> Var_name can have number from the 2nd character onwards
+    Eg: a123
+=> The Var_name can start with _ or $ or character
+=> It is Case Sensitive
+=> CamelCase Notation is used to declare the variable name.
+    firstName, lastName, etc...
+
+Computer - Processing/Computing/Calculations - Machines - Binary Numbers -> only 2 - 0 & 1
+Quantam Computer - 3 bits - 0, 1 and 0/1
+
+Different Approaches that can be used to implement JS in HTML Document.
+
+datatypes
