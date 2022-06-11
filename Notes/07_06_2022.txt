@@ -90,6 +90,3 @@ variable Name Rules
 Computer - Processing/Computing/Calculations - Machines - Binary Numbers -> only 2 - 0 & 1
 Quantam Computer - 3 bits - 0, 1 and 0/1
 
-Different Approaches that can be used to implement JS in HTML Document.
-
-datatypes

@@ -1,0 +1,237 @@
+Summary - 07/06/2022
+
+Variables Demo
+
+Different Approaches that can be used to implement JS in HTML Document.
+1. Child of HTML Element of the HTML Document
+        We use the Script Tag !!
+2. Inside the Body Element of the HTML Document
+        We use the Script Tag !!
+3. Inside the Head Element of the HTML Document - There is a Catch !!!
+        We use the Script Tag !!
+4. External Style Sheet
+        We will always enclose the script at the end of the body tag.
+5. Inline Script - Front End Frameworks.
+        React or Angular
+
+    <button onClick={() => document.getElementById("myP").innerHTML = 'Hi Sun'}>
+
+                        or
+
+    <button onclick="abc()">Click Me</button>
+
+    function abc(){
+    document.getElementById("myP").innerHTML = 'Hi Sun'
+}
+
+datatypes => To specify what type of data you have
+    Examples - integers, strings, float, long, boolean, double, null, object, char, byte, smallint, bigint, tinyint, undefined, NaN - Not a Number, etc................
+
+    In JS => Number, String, Boolean, Object, Undefined, NaN, null, Array, function etc...
+
+=> While declaring the variable there is no need to specify the datatype.
+=> JS compiler is very powerful and it can understand the type of data itself.
+
+=> There is a Operator called as Typeof Operator => will accept the value as a argument and it will give us the datatype of the value.
+            typeOf(value)       => datatype of the value
+
+Operators
+    Arithematic Operators
+
+        +   -   /   *   %   ++  --
+
+    Relational Operators/Comparision Operators
+
+        ==  !=  >   <   >=  <=  === !==
+
+        value is same or not    ==
+        value is not same as    !=
+        value is greater than   >
+        value is lesser than    <
+        value is greater than or equal to   >=
+        value is lesser than or equal to    <=
+        value and datatype should be same as    ===
+        value and datatype should not be same as !==
+
+        var a = 10  //value - 10, datatype - Number
+        var b = "10" //value - 10, datatype - String
+        if(a==b)    //true
+        if(a===b)   //false
+
+    Bitwise Operators
+
+        &   |   ^   ~   <<  >>
+
+        a   b   &   |   ^
+        0   0   0   0   0
+        0   1   0   1   1
+        1   0   0   1   1
+        1   1   1   1   0
+
+    3 => 0011
+    5 => 0101
+
+    3&5 => 0001 => 1
+
+    3|5 => 0111 => 7
+
+    3^5=>   0110    => 6
+
+    //In Logic Design you are correct ~ means reverse the number i.e. 0 to 1 and 1 to 0
+    //      ~3  => 1100 => 12       === Wrong !!!
+
+    In JS the ~ operator works differently i.e. It will work on a Number Line Concept
+
+    Number Line Concept !!!!
+
+    -5  -4  -3  -2  -1  0   1   2   3   4   5
+
+        Positive Starts from 0 and ends at infinity
+        Negative Starts from -1 and ends at -infinity
+
+    ~3 => In number line what is the position of 3 => 4th Position
+            In negative side what do you have at 4th position => -4
+
+            ~3 = -4 !!!
+
+    ~8 => -9
+
+    Left Shift => From the left side the digits are dropped and form the right side the zeros are added
+                => It behaves likes Multiplication. By 1 digit means it is *2
+
+    3<<1
+
+    0011
+     011
+     0110   => 6        
+
+
+    right shift => From the right side the digits are dropped and form the left side the zeros are added
+            => It behaves likes Division. By 1 digit means it is /2
+
+    3>>1
+
+    0011
+    001
+   0001      => 1
+
+
+    Assignment Operators
+
+    =  +=  -=  /=  *=  %=  &=  |=  ^=  
+
+        var a = 7 
+        a += 5  //  a = a + 5 // a = initialvalue of a + 5  // a = 7 + 5 // a = 12
+        a -= 3 // a = 4
+        a /= 2 // a= 3
+        a %= 3 // a = 1
+
+        a &= 2  // a = a & 2    // a = 7 & 2 // 
+        etc...
+
+
+    Logical Operators
+
+    &&          and
+    ||          or
+    !           not
+        !( && )
+        !( || ) 
+    
+    Typeof Operator
+        typeof(value/var_name)
+        = It returns the datatype of the value/var_name
+
+    {/* function abc(){
+    var a = 10
+    console.log(typeof(a))
+    console.log(typeof(5))
+    console.log(typeof(5.132416544))
+    console.log(typeof(''))
+    console.log(typeof(' '))
+    console.log(typeof('N'))
+    console.log(typeof('India'))
+    console.log(typeof({"Name":"India"}))
+    console.log(typeof({}))
+    console.log(typeof([]))
+    console.log(typeof(['Apple','Banana','Custard']))   
+    console.log(typeof(true))
+    console.log(typeof(false))
+    console.log(typeof(null))
+    console.log(typeof(NaN))
+    console.log(typeof(undefined))
+    function abc(){
+        console.log('Hello')
+    }
+    console.log(typeof(abc))
+} */}
+    
+    
+    Ternary Operator
+    => Simialr to If else Statement
+
+
+Decision Statement
+    if
+    nested if   = Is similar to && Operator
+                = It is similar to Filter also.
+
+                73 people
+                people from maharastra  16
+                still studying          2
+
+    if else
+    if else ladder
+    switch
+
+    nested if else
+    nested switch
+
+Loops
+    for
+        for(where to start; where to stop; how to move from start to stop)
+        for(initialization; condition; incre/decre/Operators)
+        Used for Manupilation
+
+    for in
+    => objects
+    => You cannot manupilate
+        start is always from 1st value
+        end is always at the last value
+        incre is always by 1
+
+    for of
+    => arrays and strings
+     => You cannot manupilate
+        start is always from 1st value
+        end is always at the last value
+        incre is always by 1
+
+
+    for each*
+        => Can be used only on Arrays
+        => One item at a time
+        => You can access index or the item and do what ever you want.
+
+
+    while
+    do while
+
+Control Statements
+    continue
+    break
+    return 
+
+    goto
+    label
+
+    pass
+
+Project
+Arrow Functions
+Objects
+Inbuild Methods of Objects
+Strings
+Inbuild Methods of Strings
+arrays
+Inbuild Methods of arrays 
