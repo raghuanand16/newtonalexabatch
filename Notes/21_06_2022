@@ -1,0 +1,110 @@
+Summary of Previous Sessions
+
+JavaScript
+    What - Oops, Behaviour, dynamic and es6
+    why - front end + back end, simple, easy, handle, etc..
+    Features - validation, errors, reuse the code, OOPs 
+    Approaches - head, body, html, external script page, 
+                 Inline(Front End Frameworks)
+    Demo JS Program
+    Comments
+    Variables - var, let and const
+    Datatypes - typeof()
+    Operators
+        Arithematic
+        Relational or Comparision 
+        Bitwise 
+        Logical 
+        Assignment
+    Decision Making
+        if, nested if, if-else, if-else ladder, switch 
+    Loops
+        for, while, do-while, for in(Object) and for of(Arrays & Strings)
+    Control Statements
+        break, continue and return
+
+Intermediate Concepts of JavaScript
+
+JS Objects
+    => It is jsut a wrapper which will holds multiple values.
+    => It is defined as a key value pair
+    => The key is not enclosed with a single or double quotes
+    => Except numbers all other values are enclosed in single or
+    double quotes.
+    => It is Non Primitive - Custom Defined - Defined by the User.
+    => Every Key Value pair is separeated by a comma
+    => The key and value are separated by colon.
+    => The Entire object is encosed within a {}
+    => The key will always be unique !!!
+    => The values can be repeated. !!
+    Eg: let a = {name: "raghu", age: 32}
+    How to access the name
+        object_name.key
+        console.log(a.name) 
+        a.name = "Login"
+
+    let a = 
+        [
+            {name: "Raghu", age: "32"},
+            {name: "Anans", age: "34"}
+        ]
+
+        [
+            ["Raghu","32"],
+            ["Anans","34"]
+        ]
+
+        firstName or 'first name' 
+
+        a[1].name  // Anans
+
+Functions
+=> It is a block of code which can be invoked repeatedly.
+=> Reusable of code
+=> syntax:
+
+    function function_name(arguments)
+    {
+        //statements
+    }
+
+    function_name()
+
+    function function_name(arguments)
+    {
+        //return statement
+    }
+
+    var a = function_name() //Function Call
+
+=> We can have infinite arguments.
+=> Multiple arguments are separeated by comma
+
+Events
+=> These are actions that can be performed by the user on html element.
+=> > 106 diff events are present
+Eg: onmouseover, onmouseleave, onkeyin, onkeyout, onkeypress, onclick, 
+ondblclick, onchange etc.......
+
+Arrays
+=> Collection of similar Datatypes or diff datatypes
+=> It has continous memory allocation
+=> It is enclosed in []
+=> Each Item is separeated by a comma 
+=> index starts from 0
+=> for of loop is used to Iterate 
+syntax:
+    let a = [1,2,3,4,5]
+             0 1 2 3 4
+item = Individual element 
+position = It starts from 1
+
+size    = Memory it gets allocated. 
+length  = 5
+
+a[index_number]
+
+index = length - 1
+
+Array Methods and Properties
+Strings, String Methods and its Properties

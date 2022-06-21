@@ -228,6 +228,7 @@ Control Statements
     pass
 
 Project
+Mini Project
 Arrow Functions
 Objects
 Inbuild Methods of Objects
