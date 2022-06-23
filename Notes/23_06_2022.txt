@@ -1,0 +1,56 @@
+Previous Day SUmmary - Done.
+
+Array Methods and Properties
+    Array Property - Length and Index
+    Array Methods
+        push = adding the item at the end 
+        pop = removing the item from the end 
+        shift = removing the item at the beginning 
+        unshift = adding the item at the beginning 
+        concat = adding 2 diff arrays
+        join
+        toString
+        slice   = removing 
+        splice  = adding
+a.splice(position from where you to add,how many elements you want to remove,
+whatever item you to want, item 2, .....)
+        sort 
+        reverse
+        compare
+        etc...
+
+Strings, String Methods and its Properties
+trim
+tolowercase
+touppercase
+concat
+charAt 
+lastindexOf 
+subString
+replace
+substr
+slice
+etc.....
+
+length
+index
+escape characters   \n \b \t etc....
+
+Number Methods
+    min, max, ceil, floor, round, random, etc...
+    Math library 
+        Pi, sqrt, pow(), etc...
+
+Date 
+
+    Minutes - 0 to 59
+    Month - 0 to 11
+    seconds - 0 to 59
+    Date - 1 to 31
+    Day - 0 to 6
+    Hour - 0 to 23
+    etc...
+
+    Get Methods
+    Set Methods
+    
