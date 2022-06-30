@@ -1,0 +1,66 @@
+Object Oriented Concepts
+    Objects
+    => It is a real world entity
+    
+    Class
+    => It is a template or a blueprint for objects
+
+    constructor
+    => It is a predefined method provided by the class
+    => This constructor will hold the properties of the object
+ 
+    this keyword 
+    => This keyword represents the object itself.
+    => It represents the object's data within its scope(block)
+
+    super method
+    => This method is used by the child class to trigger the parent class.
+
+    Inheritance
+    => Reusable
+    => Types - 1 to 1, 1 to many, hierarchy, hybrid.
+
+        Interface
+
+        Abstraction
+
+        Polyporphism
+
+        Encapsulation
+
+    Callback
+    => If a function is passed as a argument to another function. Then another
+    function is called as Callback function
+    => Yes you can pass any number of functions as Parameters
+
+    Sync Vs Async 
+    Concurrency
+    Callback Chaining
+    Callback Hell
+    Promise
+        states
+        then method
+        catch method
+    promise Chaining
+    async and await keyword
+
+    ES5
+        Array Methods - map, reduce, filter, etc...
+        keywords - let and const 
+        json - parse and stringtify
+        string Methods - trim
+        strict mode 
+        etc...
+
+    ES6
+        arrow functions
+        fetch method
+        Promise 
+        for of 
+        spread Operator
+        ............
+        etc....
+
+DOM 
+
+Bootstrap

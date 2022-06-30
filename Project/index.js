@@ -1,94 +1,115 @@
-function myArray(){
-    let a = ["red","yellow","orange","pink"]
-    console.log(a.length)
-    console.log(a[0])
-    a.push("black")
-    console.log(a)
-    a.pop()
-    console.log(a)
-    a.shift()
-    console.log(a)
-    a.unshift("blue")
-    console.log(a)
-    a[1] = "green"
-    console.log(a)
-    let b = ["rebeccapurple","cyan","wheat"]
-    let c = a.concat(b)
-    console.log(c)
-    console.log(c.toString())
-    console.log(a)
-    a.splice(1,1)
-    console.log(a)
-    a.splice(1,0,"grey")
-    console.log(a)
-    a.splice(1,0,"white","lemon")
-    console.log(a)
-    a.sort()
-    console.log(a)
-    a.reverse()
-    console.log(a)
+function def(){
+    console.log("Mars")
 }
 
-function myString(){
-    let a = "UnitedKingdom"
-    console.log(a.length)
-    console.log(a.charAt(5))
-    console.log(a.lastIndexOf("d"))
-    console.log(a.indexOf("d"))
-    let b = "Hey Hru India"
-    console.log(b.split(" "))
-    console.log(a.match("K"))
-    console.log(a.replace("dom","red"))
-    //implement for of !!
-    //implement for in !!
-    console.log(a.toLowerCase())
-    console.log(a.toUpperCase())
-    console.log(a.charCodeAt(5))    //unicode value for that character
-    console.log(a.startsWith("K",7))
-    let c = "Hey I\n am New Here"
-    console.log(c)
+function abc(a){    //a gets the function def
+    a() // calling the function a = def
 }
 
-function myNumber(){
-    let a = 1.6754
-    console.log(a.toString())
-    console.log(a.toExponential(2))
-    console.log(a.toFixed(7))
-    console.log(Math.PI)
-    console.log(Math.sqrt(16))
-    console.log(Math.pow(2,2))
-    console.log(Math.max(10,7,14,12,8))
-    console.log(Math.min(10,7,14,12,8))
-    console.log(Math.sin(90))
-    console.log(Math.cos(0))
-    console.log(Math.ceil(a))   //2
-    console.log(Math.floor(a))  //1
-    console.log(Math.round(a))  // <0.5 it will be 1 > 0.5 it will be 2
-    //Secret behind ludo king
-    console.log(Math.random())  // value from 0 to 1
-    console.log(Math.ceil(Math.random()*6))
-}
+//abc(def)    //Callback Function
 
-function myDate(){
-    let a = new Date()
-    console.log(a)
-    console.log(a.getFullYear())
-    // document.getElementById("myID").innerHTML = a.getDate()
-    // a.getFullYear
-    // a.getDate
-    // a.getDay
-    // a.getHours
-    // a.getMilliseconds
-    // a.getMinutes
-    // a.getMonth
-    // a.getSeconds
-    // a.Time 
-    let b = new Date()
-    b.setDate(26)
 
-    document.getElementById("myId2").innerHTML = b
-    // document.getElementById("myId1").innerHTML = Date.now()
-    a.set
 
-}
+// class Laptop{
+//     constructor(){
+//         this.keys = 96
+//         this.size = "14 inch"
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInputL(){
+//         console.log("Hey I am myInput Method from Class Laptop")
+//         console.log(this.ram)
+//     }
+//     myChargeL(){
+//         console.log("Hey I am myCharge Method from Class Laptop")
+//     }
+// }
+// class Tablet extends Laptop{
+//     constructor(){
+//         this.keys = 99
+//         this.size = "10 inch"
+//         this.company = "Apple"
+//         this.ram = "32 GB"
+//     }
+//     myChargeT(){
+//         console.log("Hey I am myCharge Method from Apple Tab")
+//     }
+// }
+// // function def(){
+// //     let myObject1 = new Tablet()
+// //     myObject1.myCharge()
+// //     myObject1.myInput()
+// //     console.log(myObject1.keys)
+// //     console.log(myObject1.size)
+// //     }
 
+// class Mobile extends Tablet{
+//     constructor(){
+//         super()
+//         // this.keys = 105
+//         this.size = "5.1 inch"
+//         this.company = "Samsung"
+//         this.ram = "4 GB"
+//     }
+//     myInputM(){
+//         console.log("Hey I am myInput Method from Class Mobile")
+//         console.log(this.ram)
+//     }
+//     myChargeM(){
+//         console.log("Hey I am myCharge Method from Class Mobile")
+//     }
+// }
+// function abc(){
+// let myObject = new Mobile()
+// myObject.myCharge()
+// myObject.myInput()
+// console.log(myObject.keys)
+// console.log(myObject.size)
+// }
+
+// class Laptop{
+//     constructor(a,b){
+//         this.keys = a
+//         this.size = b
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInput(){
+//         console.log("Hey I am myInput Method from Class Laptop")
+//         console.log(this.ram)
+//     }
+//     myCharge(){
+//         console.log("Hey I am myCharge Method from Class Laptop")
+//     }
+// }
+// function abc(){
+//     let myObject = new Laptop(96,"14 inch")
+//     myObject.myCharge()
+//     myObject.myInput()
+//     console.log(myObject.keys)
+//     console.log(myObject.size)
+//     }
+
+
+
+// class Laptop{
+//     constructor(){
+//         this.keys = 96
+//         this.size = "14 inch"
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInput(){
+//         console.log("Hey I am myInput Method")
+//     }
+//     myCharge(){
+//         console.log("Hey I am myCharge Method")
+//     }
+// }
+// function abc(){
+// let myObject = new Laptop()
+// myObject.myCharge()
+// myObject.myInput()
+// console.log(myObject.ram)
+// }

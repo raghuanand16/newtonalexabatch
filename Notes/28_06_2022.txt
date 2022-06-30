@@ -1,0 +1,23 @@
+Adavnced JS Concepts
+    Error Handling
+    => It is a concept which is used to handle the error that the code may 
+    generate.
+    3 statements
+        try
+            It is a block which is used to enclose the code.
+        catch
+            If at all the code inside the try statement generates a error,
+            then the catch statement is used to handle that error.
+                For Handling the Error it has 2 approaches
+                1. Using the Exception Type which is like *
+                2. Using the Type which is specific to a Error
+        finally
+            It is a block which has code inside it. Now these code will execute
+            whether the try block generates a error or not.
+    2 keywords 
+        throw
+            Used to throw an Exception within a given block or to throw the 
+            exception to the user.
+        throws
+            Used to throw an Exception from block to block
+
