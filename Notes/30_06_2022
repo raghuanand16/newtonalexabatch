@@ -33,34 +33,4 @@ Object Oriented Concepts
     function is called as Callback function
     => Yes you can pass any number of functions as Parameters
 
-    Sync Vs Async 
-    Concurrency
-    Callback Chaining
-    Callback Hell
-    Promise
-        states
-        then method
-        catch method
-    promise Chaining
-    async and await keyword
-
-    ES5
-        Array Methods - map, reduce, filter, etc...
-        keywords - let and const 
-        json - parse and stringtify
-        string Methods - trim
-        strict mode 
-        etc...
-
-    ES6
-        arrow functions
-        fetch method
-        Promise 
-        for of 
-        spread Operator
-        ............
-        etc....
-
-DOM 
-
-Bootstrap
+    

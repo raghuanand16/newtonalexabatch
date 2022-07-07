@@ -1,0 +1,99 @@
+ES5
+        Array Methods - map, reduce, filter, forEach etc...   
+        json - parse and stringtify
+
+        JSON
+        => Javascript Object Notation
+        => It is a data format
+        => It is used to store, transport and manage data.
+        => It is similar to Javascript Object but the key here is enclosed
+        with quotes.
+        => Javascript compiler will not understand the json data.
+
+        stringtify
+            It is used to convert the json data/javascript object  
+            into string
+
+        parse
+            It is used to convert the string back into javascript object
+            /json data
+
+        string Methods - trim
+        strict mode 
+        etc...
+
+    ES6
+        keywords - let and const - Done !
+        fetch method    - Done !
+        Promise - Done !
+        for of - Done !
+        arrow functions - Done ! 
+        => It is a shorthand Property that is used for functions
+        => For creating a normal function into a arrow function you will have 
+        to follow certain conditions or rules
+        1. the function keyword is eliminated
+        2. the return keyword is also eliminated
+        3. the function name is now used as a variable name
+        4. the arrow symbol i.e. => is used in b/w the arguments and the function's definition/scope/block
+        5. If you have only one argument no need to use the () braces
+        6. No need to use the {} braces anymore if you have a single statement.
+        
+        function abc(a,b){
+            return a + b
+        }
+        abc(5,5)    //10
+
+        abc = (a,b) => a + b 
+        typeof(abc) //function
+        abc(5,5)   //10
+
+        function a(x){
+            return x*5
+        }
+        a(3)    //15
+
+        a = x => x*5
+        a(3)
+
+        function a(x){
+            if(1 < 2)
+            {
+                return 5
+            }
+            else
+            {
+                return 3
+            }
+        }
+
+        a = x => {
+            1<2
+            ?
+            return 5
+            :
+            return 3
+        }
+
+        a = x => (
+            1<2
+            ?
+            5
+            :
+            3
+        )
+        spread Operator
+
+        ............
+        etc....
+
+DOM 
+
+NodeJs
+
+ExpressJS
+
+MongoDB
+
+Bootstrap
+
+ReactJS

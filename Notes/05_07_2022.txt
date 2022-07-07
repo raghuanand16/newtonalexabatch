@@ -1,0 +1,54 @@
+Sync Vs Async 
+
+Sync
+=> line by line execution and it will wait till the outcome/result of the line 
+is achieved.
+=> Single threaded - Single Process Only
+=> A specific action or program or process is executed.
+=> JS in Front End behaves synchronously
+
+Async
+=> It is also line by line execution but it wont wait for the outcome/result
+of the line.
+=> Multi Threaded - Multiple Process 
+=> Multiple action or program or process are executed.
+=> JS in Back End behaves Asynchronously
+
+Concurrency
+=> It means Multiple Process are executed Simultaneously or parallely or at 
+the same time.
+
+Callback Chaining
+   => If a function is passed as a argument to another function and these another
+   function is also passed as a argument to another function. Such a situation
+   we call it as callback chaining
+
+Callback Hell
+=> It is a situtaion in which the developer faces a dilemma that the execution
+starts from top to bottom but in fact it is the other way around.
+=> To Overcome this situation promise was introduced.
+
+Promise
+=> It is a handler which executes asynchronously to generate appropriate 
+results
+=> It was introduced to overcome Call Back Hell Like situations
+=> 4 States are present, namely
+    1. pending - The promise is triggered but there is no outcome yet.
+    2. fulfilled - The triggered promise has generated a success outcome.
+    3. rejected - The triggered promise has generated a Failure outcome.
+    4. settled - The triggered promise has generated a outcome.
+
+    then method
+        => Once the promise is settled, the next logic is defined in the then
+        method.
+    catch method
+        => If at all the promise generates a error then it will be handled by
+        the catch method
+
+promise Chaining
+=> If you have multiple then methods being used on a promise then such a promise
+is called as promise chaining.
+
+async and await keyword
+async - It makes the functin to return a promise value
+await - It makes the function to wait for a promise value
