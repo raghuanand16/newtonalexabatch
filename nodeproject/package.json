@@ -1,0 +1,12 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "Nodejs Project for Alexa Batch",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raghu Anand",
+  "license": "ISC"
+}

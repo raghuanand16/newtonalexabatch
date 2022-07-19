@@ -1,0 +1,67 @@
+HTML DOM
+=> Document Object Model 
+The HTML Document is a collection of html elements, These
+html elements are represented as objects in a form
+of a Model which is a tree like structure
+
+                                             Document
+                                               Root
+                            Head                                    Body
+                            title                             p             h1
+                        My First Web Page               Hey I Mars      Jupitor is a planet
+
+
+<html>
+    <head>
+        <title>c</title>
+    </head>
+    <body>
+        <p style="color:red">c</p>
+        <h1>c</h1>
+    </body>
+</html>
+
+const a = "Hello"
+para.appendChild(a)
+
+Why we need DOM
+    Browsers will display the document to the user
+
+Web Applications
+    => Any application that is served on the web 
+    => 2 different categories,namely MPA & SPA
+
+Multi Page Applications
+=> The page gets reloaded
+=> Every time a new request is sent and the data is downloaded from the server again.
+=> Bandwidth is wasted
+=> Server is overloaded
+=> The Browser DOM as a whole is reloaded after every request made by the user
+    Eg: Nodejs Website
+
+Single Page Applications
+=> The page does not gets reloaded
+=> Every time a new request is sent and the data is downloaded from the server again
+     but only those data which is changed. If the data is not changed it will not
+     downlaod anything
+=> Bandwidth is not wasted
+=> Server is also not overloaded
+=> The Browser DOM as a whole will not be reloaded, But only the nodes which was changed will
+ be reloaded after every request made by the user
+
+DOM is used to manipulate the nodes within the tree.
+
+DOM Methods
+getElementById("").innerHTML
+                  .innerText 
+                  .Textcontent
+
+NodeJs
+
+ExpressJS
+
+MongoDB
+
+Bootstrap
+
+ReactJS

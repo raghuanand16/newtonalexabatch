@@ -1,0 +1,87 @@
+NodeJs
+    => it is a run time environment used to execute JavaScript outside 
+    the browser
+    => V8 Engine + some logic which is written in C and C++
+    => async/sync
+
+Install of Nodejs
+    Follow the default settings and install it.
+
+NPM
+=> Node Package Manager
+=> It is a tool who manages the packages on behalf of node.
+
+packages - library/module/function/dependency/3rd party libraries/ etc.....
+
+Create a New Node Project
+    npm init    => npm initialization -> creates a new project.
+    npm init -y => all the values uses default settings.
+
+Execute the node 
+    node index.js or node name inside the main key of package.json
+
+Node Modules
+=> Modules are nothing but js libraries
+=> packages/ library/module/function/dependency/3rd party libraries/ etc....
+
+ES5 - By default Node uses ES5 
+import
+    const a = require('module_name')
+export
+    exports.default = a
+
+For uniformity we use ES6 syntax in Node also by adding a key value pair
+in the package.json file.
+    "type": "module"
+
+ES6 - By default React uses ES6
+import
+    import a from 'module_name'
+export
+    export default a
+
+abc is a module
+    f1 is a function
+    f2 is a function
+
+import a from 'abc'
+a.f1
+a.f2
+
+import {f1} from 'abc'
+f1 
+f2 //error
+
+3 types of Node Modules
+1. Inbuild Module / Pre defined Module
+    => These modules are pre defined or they come as a part of node itself.
+    At the time of installation of node, these libraries are installed 
+    automatically
+    Eg: process, http, path, fs, os,buffer, etc....
+
+    process Module
+    => It is used to accept arguments from the command prompt
+    during the run time.
+    => The arguments are accepted in a form of array
+
+    os Module
+    => It stands for Operating System Module.
+    => Using this Module you can get system and Operation system data.
+        Eg: architecture, ram, free space, 64 bit/32bit, etc... 
+
+    fs Module
+    => It stands for file system Module
+    => Using this Module you can manage the entire life cycle of a file
+    => read, create, write, delete, append, rename, etc....
+    => Sync and Async are supported, Infact you have separate methods for
+    sync and async 
+
+2. User Defined Module
+    => The developer/user will create a module and use it.
+
+3. NPM Managed Modules.
+    => These modules are managed by the npm tool.
+    Eg: chalk, nodemon, lodash, etc.....
+
+
+
