@@ -1,3 +1,44 @@
+import chalk from "chalk"
+
+console.log("Hello")
+console.log(chalk.bgRed("Hello"))
+console.log(chalk.green.italic("Hello"))
+
+
+// import usermodule from './usermodule'
+// const usermodule = require('./usermodule')
+// console.log(usermodule.add(5,5))
+
+
+// import url from 'url'
+
+// const myUrl = 'https://jsonplaceholder.typicode.com/photos'
+// //Right now this will behave as a normal string
+
+// const a = url.parse(myUrl)
+// //You are converting the normal string into a URL.
+
+// console.log(a.host)
+// console.log(a.hostname)
+// console.log(a.port)
+// console.log(a.protocol)
+// console.log(a.path)
+// console.log(a.pathname)
+
+// console.log("All from here")
+// console.log(a)
+
+
+// import http from 'http'
+
+// http.createServer((req,res)=>{
+//     console.log('Hey I am Jupitor')
+//     res.write('Hey I am from planet Jupiter')
+//     res.end()
+// }).listen(3001)
+
+
+
 // import fs from 'fs'
 
 // fs.writeFileSync('Myfile.txt','Hey I am from Pluto')
