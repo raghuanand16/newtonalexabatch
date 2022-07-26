@@ -1,0 +1,110 @@
+ExpressJS
+=> It is a Nodejs Framework.
+=> The expressjs framework is installed on top of Nodejs
+=> It has a lot of features that is required by the 
+developer but it is not available in Nodejs
+
+Features
+    Routing -> Endpoints - you can map the logic for 
+            the endpoint
+    Authentication
+    Sessions
+    connection with db
+    Templates -> Javascript is converted into a template 
+    and then these template is converted back to HTML
+        Multiple template engines are available 
+        We will use EJS Expressions
+            Embedded JavaScript Template Engine
+    etc.....
+
+Can we send data to the server using the api ??
+YES you can do it, How ??
+There are around 5+ approaches that can be used to send the data
+to the back end using the api(url)
+
+Approaches using whihc we can send data to the backedn
+1. Query Parameters
+
+        URL?key=value
+        https://jsonplaceholder.typicode.com/albums?id=50
+
+        URL?key=value&key=value
+        https://jsonplaceholder.typicode.com/albums?id=50&id=75
+
+2. URI Parameters/URI Query String
+
+        External syntax - URL/value
+        Internal Syntax - URL/:key
+
+        E - https://jsonplaceholder.typicode.com/albums/50
+        I - https://jsonplaceholder.typicode.com/albums/:id
+
+
+3. Request Body
+4. Request Header 
+5. Hard Coded
+
+POSTMAN
+=> https://www.postman.com/downloads/
+=> Once downloaded, use default settings and simply click next 
+and next and finally install 
+=> It will ask you for singup/Register - Do not do it - Bottom right hand
+side, you will see a skip button click on it.
+
+=> Postman is a software/tool
+=> This s/w is used to manage the entire life cycle of a API 
+=> To create a API
+=> To create documentation for the API
+=> To Update a API
+=> To Delete a API
+=> To monitor a API 
+=> TO test the API
+    => Many Features are present
+    1. Collections - Group of API's of a particular project 
+    2. Environment - 
+    3. Http Request ===== Important !!!!!!
+    etc....
+
+HTTP Methods
+
+CRUD Operation
+
+Create      = POST => you are sending the data to the server 
+Read        = GET => You are receiving the data from the server 
+Update      = PUT/PATCH => you are sending the data to the server for updation
+
+Example = {"Name": "Raghu","Age":32}
+PUT     => change Age with 33 => {"Age":33}
+    Entire Data is replaced
+     {"Name": "Raghu","Age":33}
+
+PATCH   => change Age with 33
+        Only the corresponding field gets updated 
+
+Delete      = Delete => you are sending the data to the server for deletion
+
+UNLINK, LINK, HEAD, OPTIONS, etc.....
+
+HTTP Status Code - 5 diff types of codes are available,
+
+Code starting with 1 => Information Status 
+Code starting with 2 => Success Status 
+    200 -ok, 201 - created, etc...
+Code starting with 3 => Redirection Status 
+Code starting with 4 => Client Side Errors
+    404 Not found, 400 bad request, 429 - Too many requests , etc...
+Code starting with 5 => Server Side Errors
+    500 Internal Server Error, 502 bad Gateway, etc...
+
+Demo - Done
+
+EJS
+
+<%- include() %>
+
+
+MongoDB
+
+Create a Project using Node, Mongodb and Express - API's 
+
+Reactjs

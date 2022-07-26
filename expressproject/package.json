@@ -1,0 +1,22 @@
+{
+  "name": "expressproject",
+  "version": "1.0.0",
+  "description": "Express and EJS Implementation Demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Express",
+    "EJS",
+    "Node"
+  ],
+  "author": "Raghu Anand",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

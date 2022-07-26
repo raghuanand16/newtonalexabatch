@@ -76,12 +76,50 @@ f2 //error
     => Sync and Async are supported, Infact you have separate methods for
     sync and async 
 
+    http Module
+    => These module is used to create a server.
+    => createServer method.
+    => Every server will execute on a particular port address. WIth the help
+    of listen Method you can tell on which port the server has to be executed.
+    => request and response parameters.
+
+    Free port address that can be used such as
+    3000, 3001, 3002, 3003, 4000, 4567, 5000, 6100, 6300, 6700, 6900, 8000,
+    8001, 8002, 8003, 8080, 8081, 8082, 8083, 9000, 9090, 27017 etc....
+
+    url Module
+    => url => http request/website domain address/ etc...
+    Eg: https://jsonplaceholder.typicode.com/albums
+
+    host - jsonplaceholder.typicode.com
+    protocol - https
+    endpoint - albums
+    extension - .com
+
+/posts	100 posts
+/comments	500 comments
+/albums	100 albums
+/photos	5000 photos
+/todos	200 todos
+/users	10 users
+
+    API
+    => Application Programming Interface
+    => API is made up of a layer which stands in the middle b/w the server 
+    and the browser 
+    => The functionality of these layer is it will provide data to the 
+    front end by extracting the data from the back end.
+
+    REST Architecture 
+    url
+    Json data
+
 2. User Defined Module
     => The developer/user will create a module and use it.
+    => Here by using the exports keyword.
 
 3. NPM Managed Modules.
     => These modules are managed by the npm tool.
     Eg: chalk, nodemon, lodash, etc.....
 
-
-
+    npm install -g nodemon 

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>EJS Demo</title>
+    </head>
+    <body>
+        <p>Hello</p>
+        <h1>Direct Access Demo</h1>
+        <p><%= myData[0] %></p>
+        <p><%= myData[1] %></p>
+        <p><%= myData[2] %></p>
+        <h1>For Loop Demo</h1>
+        <% for(let i=0;i<myData.length;i++){  %>
+            <p><%= myData[i]%></p>
+        <% } %> 
+        <h1>Map Method Demo</h1>
+        <% myData.map((item)=>{ %>
+            <p><%= item %></p>
+        <% }) %>
+        <h1>If else Statement Demo</h1>
+    </body>
+</html>

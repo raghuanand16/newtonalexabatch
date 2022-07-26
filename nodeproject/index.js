@@ -37,6 +37,8 @@ console.log(chalk.green.italic("Hello"))
 //     res.end()
 // }).listen(3001)
 
+//locahost:3001/
+
 
 
 // import fs from 'fs'
