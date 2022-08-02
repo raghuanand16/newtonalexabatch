@@ -1,0 +1,487 @@
+Database
+=> It is a place or a storage area which is used to store data.
+
+DBMS
+=> Database Management System
+=> This is a software or a tool which is used to Manage the entire life cycle of a database.
+
+Types of Databases - 3+
+=> Relational/ sql Database
+    Eg: Mysql, Oracle, Microsoft Sql, postgresql, etc...
+=> Non Relational/ No Sql Database
+    Eg: MongoDB, Apache Cassandra, Redis, Neo4j, etc....
+=> Hierarchy Database
+
+                    Relational DB VS Non Relational DB
+
+Relational DB
+=> The Data is of fixed size
+=> The Data is in the form of structured pattern
+=> The data is stored in a form of Table
+=> The Data format will be of primitive forms.
+=> you can provide a primary key/Unique Key/Index Key/etc..
+=> It uses a Query Language to creating query which is used to manage the data.
+
+Non Relational DB
+=> The Data is of not fixed size
+=> The Data is in the form of semi structured or unstructured pattern
+=> The data is stored in different forms such as
+    1. Key Value Pair
+        Eg: Redis
+    2. Document 
+        Eg: MongoDB
+    3. Column 
+        Eg: Apache Cassandra
+    4. Graph
+        Eg: Neo4j
+=> The Data format will be of primitive and non primitive
+=> you cannot provide any unique key, you can do it but there is no gaurantee that you can unique key for every documents.
+=> It already comes with predefined functions/methods and Properties. You will use these predefined functions/methods to manage the data.
+
+MongoDB
+=> It is a Document Based Non Relational DBMS.
+=> Json or XML or yaml or Yang or html or text or csv or Bson or etc......
+
+Mongodb Software
+=> Mongodb database/Mongodb Server
+    => It is the server which is the storage area to store the data
+    => 27017 - default address
+
+=> Mongodb shell
+    => It is used by the user/developer to communicate with the database/server
+    => It is not user friendly.
+    => you will have to use a command line interface.
+
+Mongodb Compass
+    => It is used by the user/developer to communicate with the database/server
+    => It is user friendly.
+    => you will have to use a Graphical User interface.
+    => Inside this s/w you also have the mongodb shell
+
+https://www.mongodb.com/try/download/community
+Download the file.
+
+DOuble click on the downloaded file
+Select Complete Option
+Use the default settings
+SImple click next, next and next....
+Finnaly you click on Install
+
+Structure of a Mongodb Database
+
+=> create a database
+=> create a collection
+=> create the documents/data
+
+# When you insert the document in MongoDB automatically a primary key called as Object Id is generated.
+Object ID is of 24 Characters
+It's size is 12 bytes
+4 bytes - 8 characters => timestamp
+2 byte - 4 characters  => process id
+3 byte - 6 characters  => Machine id
+3 byte - 6 characters => Counter
+
+This Object ID is represented as _id
+
+Basic Commands in MongoDB
+
+1. For Creation of a Database
+    use database_name
+    This will create a database and the created database is selected
+
+2. Delete the Database
+    db.dropDatabase()
+
+3. For Creating a Collection
+    db.createCollection("collection_name")
+
+4. Deleting a Collection
+    db.collection_name.drop()
+
+5. Insert Operation = POST Method
+insert, insertOne, insertMany, etc...
+
+{
+    "name": "Jatin",
+    "age": 23,
+    "graduation" : 2020,
+    "skillset": ["C","C++","JAVA"]
+}
+[
+{
+    "name": "Bhaskar",
+    "age": 25,
+    "graduation" : 2021,
+    "skillset": ["R","PYTHON","DOTNET"]
+},
+{
+    "name": "Aayush",
+    "age": 40,
+    "graduation" : 2030,
+    "skillset": ["MEAN","MERN","DJANGO"]
+}
+]
+
+6. find Operation - GET Method
+find, findById, findOneAndUpdate, findOneAndDelete, etc..
+
+   find Operation based on some condition - you pass the condition which is in a form of key value pair as a argument to the find Method.
+
+MongoDB Operators - The Operators are used as key within the key - value pair
+$and - And Operation
+$or - Or Operation
+$nor - NOR
+
+$eq - Equals
+$ne - Not Equals
+$gt - Greater Than
+$gte - Greater Than and Equal To
+$lt - Lesser than
+$lte - Lesser Than and Equal To
+
+db.alexa.find({$and: [{"skillset": "PYTHON"},{"graduation": 2021}]})
+
+db.alexa.find({$or: [{"skillset": "PYTHON"},{"graduation": 2023}]})
+
+db.alexa.find({"age":{$lt: 30}})
+
+db.alexa.find({$and: [{"age":{$gt:20}},{"age": {$lt: 30}}]})
+
+db.alexa.find({$and: [{"age":{$gt:20}},{"age": {$lt: 25}}]})
+
+I want the document who has skillset as python and he should be less than 30 years of age or greater then 20 years of age.
+
+db.alexa.find(
+    {$and: 
+        [
+            {"skillset": "python"},
+            {$or: 
+                [
+                    {"age":{$lt: 30}},
+                    {"age":{$gt:20}}
+                ]}
+        ]
+    }
+)
+
+I want the document who has skillset as python OR he should be less than 30 years of age and greater than 20 years of age.
+
+$or: [{"age":{$lt: 30}},{"age":{$gt:20}}]
+
+7. update Operation - PUT / PATCH Method
+    update, updateOne, UpdateMany, etc..
+
+    db.alexa.updateOne({"name": "Bhaskar"},{uppend:true},{$set: {"age": 50}})
+
+8. delete Operation - Delete Method
+    deleteOne, deleteMany
+
+db.alexa.deleteOne({"name":"Bhaskar"})
+
+db.alexa.deleteMany({}) => Delete all the data from collection
+
+9. Limit Method
+10. Skip Method
+11. Sort Method
+12. count Method
+
+=========================================================================================
+use newton
+'switched to db newton'
+db.createCollection("alexa")
+{ ok: 1 }
+show databases
+admin        65.5 kB
+b45          65.5 kB
+batch45      69.6 kB
+config       73.7 kB
+local         106 kB
+newton       8.19 kB
+project_sri    41 kB
+react        73.7 kB
+user         65.5 kB
+show collections
+alexa
+show dbs
+admin        65.5 kB
+b45          65.5 kB
+batch45      69.6 kB
+config       73.7 kB
+local         106 kB
+newton       8.19 kB
+project_sri    41 kB
+react        73.7 kB
+user         65.5 kB
+db.alexa.drop()
+true
+db.dropDatabase()
+{ ok: 1, dropped: 'newton' }
+use newton
+'switched to db newton'
+db.createCollection("alexa")
+{ ok: 1 }
+db.alexa.insertOne({
+    "name": "Jatin",
+    "age": 23,
+    "graduation" : 2020,
+    "skillset": ["C","C++","JAVA"]
+})
+{ acknowledged: true,
+  insertedId: ObjectId("62e94b0115653f4f14a94783") }
+db.alexa.insertMany([
+{
+    "name": "Bhaskar",
+    "age": 25,
+    "graduation" : 2021,
+    "skillset": ["R","PYTHON","DOTNET"]
+},
+{
+    "name": "Aayush",
+    "age": 40,
+    "graduation" : 2030,
+    "skillset": ["MEAN","MERN","DJANGO"]
+}
+])
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("62e94c3b15653f4f14a94784"),
+     '1': ObjectId("62e94c3b15653f4f14a94785") } }
+db.alexa.find()
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+db.alexa.find({"skillset": "DJANGO"})
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+db.alexa.find({$and: [{"skillset": "PYTHON"},{"graduation": 2021}]})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+db.alexa.find({$and: [{"skillset": "PYTHON"},{"graduation": 2023}]})
+db.alexa.find({$or: [{"skillset": "PYTHON"},{"graduation": 2023}]})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+db.alexa.find({"age":{$lt: 30}})
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+db.alexa.find({$and: [{"age":{$gt:20}},{"age": {$lt: 30}}]})
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+db.alexa.find({$and: [{"age":{$gt:20}},{"age": {$lt: 25}}]})
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+db.alexa.find(
+    {$and: 
+        [
+            {"skillset": "python"},
+            {$or: 
+                [
+                    {"age":{$lt: 30}},
+                    {"age":{$gt:20}}
+                ]}
+        ]
+    }
+)
+db.alexa.find(
+    {$and: 
+        [
+            {"skillset": "PYTHON"},
+            {$or: 
+                [
+                    {"age":{$lt: 30}},
+                    {"age":{$gt:20}}
+                ]}
+        ]
+    }
+)
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 25,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+db.alexa.updateOne({"name": "Bhaskar"},{$set: {"age": 50}})
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0 }
+db.alexa.updateOne({"name": "Bhaskar"},{$set: {"city": "Bangalore"}})
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0 }
+db.alexa.find().limit(1)
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+db.alexa.find().skip(1)
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+db.alexa.find()
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+db.alexa.find().sort({"age": 1})
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+db.alexa.find().sort({"age": -1})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+db.alexa.find().count()
+3
+db.alexa.find().sort({"name": 1})
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+db.alexa.find().sort({"name": -1})
+{ _id: ObjectId("62e94b0115653f4f14a94783"),
+  name: 'Jatin',
+  age: 23,
+  graduation: 2020,
+  skillset: [ 'C', 'C++', 'JAVA' ] }
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021,
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ],
+  city: 'Bangalore' }
+{ _id: ObjectId("62e94c3b15653f4f14a94785"),
+  name: 'Aayush',
+  age: 40,
+  graduation: 2030,
+  skillset: [ 'MEAN', 'MERN', 'DJANGO' ] }
+db.alexa.updateOne({"name": "Bhaskar"},{$unset: {"city": "Bangalore"}})
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0 }
+
+db.alexa.find({"name": "Bhaskar"},{"skillset": false})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  age: 50,
+  graduation: 2021 }
+db.alexa.find({"name": "Bhaskar"},{"skillset": false, "age": false})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  name: 'Bhaskar',
+  graduation: 2021 }
+
+db.alexa.find({"name": "Bhaskar"},{"skillset": true})
+{ _id: ObjectId("62e94c3b15653f4f14a94784"),
+  skillset: [ 'R', 'PYTHON', 'DOTNET' ] }
+
+=======================================================================
+
+Mysql
+
+Bootstrap
+
+Create a Project using Node, Mongodb and Express - API's 
+
+Reactjs

@@ -102,9 +102,21 @@ EJS
 
 <%- include() %>
 
+Recap
+    HTML 
+    CSS 
+    JavaScript
+    ES5
+    ES6
+    Nodejs 
+    ExpressJS
+    API
+        POSTMAN
+    EJS - MPA => Using Just Node you can build web application !!!
+    MongoDB
+    Mysql
+    Bootstrap
+    ReactJS
+    
 
-MongoDB
 
-Create a Project using Node, Mongodb and Express - API's 
-
-Reactjs
